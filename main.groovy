@@ -34,3 +34,12 @@ def testClosure = { println Math.random() }
 testClosure()
 testClosure()
 
+(1..3).each({
+	println "Hello, it's " + new Date()
+	//sleep(1000)
+})
+
+
+
+
+
